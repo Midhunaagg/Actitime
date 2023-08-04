@@ -1,0 +1,18 @@
+<suite name="Suite">
+<groups>
+<run>
+<include name="regressionTest"/>
+<exclude name="Smoketest"/>
+</run>>
+</groups>>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="basics.TestNG1"/>
+      <class name="basics.DemoA"/>
+      <class name="com.actitime.testscript.CustomerModule"/>
+      <class name="com.actitime.testscript.TaskModule"/>
+      <class name="com.actitime.testscript.ProjectModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
